@@ -1,0 +1,8 @@
+this program is to extract babynames from html pages, u can pass as may html pages as arguments; the program will return the babynames in alphabetical order for each html files
+u can run this program like this
+
+$ python babynames.py "html file location" "you can add more html files with baby names"
+	>>>this will display the result in terminal itself
+	
+$ python babynames.py '--summaryfile' "html file location" "you can add more html files with baby names"
+	>>> instead of writing the results in the terminal, this will write the same output to a file

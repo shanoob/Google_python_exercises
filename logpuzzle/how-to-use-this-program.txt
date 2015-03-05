@@ -1,0 +1,10 @@
+this program is to extract web address of stiped image from the log file
+to get the web address from the log file use this code:
+
+$ python logpuzzle.py "the exact location of log file"
+
+if u want to download the image strip and view it in a web page; use the following code:
+
+$ python logpuzzle.py '--todir' "the exact location of log file" "directory address, where u want to save the images"
+
+this program will create an html file in the given directory, and this html file displays the image

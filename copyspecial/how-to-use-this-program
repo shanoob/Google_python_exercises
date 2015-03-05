@@ -1,0 +1,13 @@
+you can use this program in 3 ways
+1. to list the special contents in the given directory
+$ python copyspecial.py "exact directory address"
+
+2. to copy the special contents into a given directory
+$ python copyspecial.py '--todir' "directory address to copy,dir1" "directory address to search for the special contents, dir2"
+the program will search for the special contents in the dir2, if such special contents are there, the program will copy those contents to dir1
+
+3. compress(zip) the files to a given directory
+$ python copyspecial.py '--tozip' "where to zip" "search fpr the special contents"
+
+
+
